@@ -20,5 +20,5 @@ This prpject consists of three technical analysis, and a proposal to further ana
 
 ## Resources
 * Data Source: [MechaCar_mpg.csv](https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-online/module_15/MechaCar_mpg.csv) and [Suspension_Coil.csv](https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-online/module_15/Suspension_Coil.csv)
-* Data Tools: [tidyverse](https://www.tidyverse.org/), [dplyr](https://dplyr.tidyverse.org/), [ggplot2](https://ggplot2.tidyverse.org/) and MechaCarChallenge.RScript.R.
+* Data Tools: [tidyverse](https://www.tidyverse.org/), [dplyr](https://dplyr.tidyverse.org/), [ggplot2](https://ggplot2.tidyverse.org/) and [MechaCarChallenge.RScript.R](https://github.com/jbailey2705/MechaCar_Statistical_Analysis/blob/main/MechaCarChallenge.RScript.R).
 * Software: [RStudio](https://posit.co/) and [R](https://cran.r-project.org/)

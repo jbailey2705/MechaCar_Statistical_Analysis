@@ -1,5 +1,7 @@
 # MechaCar_Statistical_Analysis
 
+![Screenshot 2022-11-16 at 5 33 38 PM](https://user-images.githubusercontent.com/109354592/202317762-2e726893-baa0-4c1a-96f8-99d156de737e.png)
+
 # Overview of Project
 Jeremy is approached by upper management about a special project. AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing team’s progress. AutosRUs’ upper management has called on Jeremy and the data analytics team to review the production data for insights that may help the manufacturing team.
 

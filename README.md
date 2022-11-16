@@ -13,4 +13,4 @@ In this challenge, you’ll help Jeremy and the data analytics team do the follo
 ## Deliverables
 This prpject consists of three technical analysis, and a proposal to further analize company data.
 
-1. #### Deliverable 1
+* #### Deliverable 1

@@ -21,7 +21,7 @@ This prpject consists of three technical analysis, and a proposal to further ana
 * #### Deliverable 4: Design a Study Comparing the MechaCar to the Competition
 
 ## Resources
-* Data Source: [MechaCar_mpg.csv](https://github.com/jbailey2705/MechaCar_Statistical_Analysis#:~:text=1%20hour%20ago-,MechaCar_mpg.csv,-Add%20files%20via) and Suspension_Coil.csv
+* Data Source:  and Suspension_Coil.csv
 * Data Tools: [tidyverse](https://www.tidyverse.org/), [dplyr](https://dplyr.tidyverse.org/), [ggplot2](https://ggplot2.tidyverse.org/) and [MechaCarChallenge.RScript.R](https://github.com/jbailey2705/MechaCar_Statistical_Analysis/blob/main/MechaCarChallenge.RScript.R).
 * Software: [RStudio](https://posit.co/) and [R](https://cran.r-project.org/)
 

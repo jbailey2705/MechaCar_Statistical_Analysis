@@ -43,6 +43,8 @@ To deliver the findings the following steps were followed:
 
 **mpg = (6.267)vehicle_length + (0.0012)vehicle_weight + (0.0688)spoiler_angle + (3.546)ground_clearance + (-3.411)AWD + (-104.0)**
 
+![linear_regression_model](https://user-images.githubusercontent.com/109354592/202329003-5b21c038-694b-4961-83f7-8ea8d639787e.png)
+
 ![summary_statistics](https://user-images.githubusercontent.com/109354592/202326007-504bb0db-77af-4ef1-bdb5-6fda7ebba1bb.png)
 
 
@@ -50,7 +52,14 @@ To deliver the findings the following steps were followed:
 
 From the data above we can see that:
 
--- The vehicle length, and vehicle ground clearance are statistically likely to provide non-random amounts of variance to the model. That is to say, the vehicle length and vehicle ground clearance have a significant impact on miles per gallon on the MechaCar prototype. Conversely, the vehicle weight, spoiler angle, and All Wheel Drive (AWD) have p-Values that indicate a random amount of variance with the dataset.
+- The vehicle length, and ground clearance are likely to provide non-random amounts of variance to the model. That is, the vehicle length and ground clearance have a significant impact on miles per gallon on the prototype. The _**vehicle weight**_, _**spoiler angle**_, and _**All Wheel Drive**_ (AWD) have p-Values that show to have random amounts of variance with the dataset presented
+- `P-Value: 5.35e-11`, is much smaller than the assumed level of 0.05%. This indicates there is enough evidence to reject our null hypothesis, which indcates that the slope on this linear model is not zero.
+- The linear model has a r-squared value of **0.7149**, approximately 71% of all mpg predictions will be determined by this model. The multiple regression model does predict mpg of MechaCar prototypes effectively.
+
+
+
+
+
 
 
 

@@ -53,9 +53,11 @@ To deliver the findings the following steps were followed:
 From the data above we can see that:
 
 - The vehicle length, and ground clearance are likely to provide non-random amounts of variance to the model. That is, the vehicle length and ground clearance have a significant impact on miles per gallon on the prototype. The _**vehicle weight**_, _**spoiler angle**_, and _**All Wheel Drive**_ (AWD) have p-Values that show to have random amounts of variance with the dataset presented
-- `P-Value: 5.35e-11`, is much smaller than the assumed level of 0.05%. This indicates there is enough evidence to reject our null hypothesis, which indcates that the slope on this linear model is not zero.
-- The linear model has a r-squared value of **0.7149**, approximately 71% of all mpg predictions will be determined by this model. The multiple regression model does predict mpg of MechaCar prototypes effectively.
+- **`P-Value: 5.35e-11`**, is much smaller than the assumed level of **0.05%**. This indicates there is enough evidence to reject our null hypothesis, which indcates that the slope on this linear model is not zero.
+- The linear model has a r-squared value of **0.7149**, approximately **71%** of all mpg predictions will be determined by this model. The multiple regression model does predict mpg of MechaCar prototypes effectively.
 
+## Deliverable 2:
+### Summary Statistics on Suspension Coils
 
 
 

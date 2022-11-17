@@ -15,10 +15,10 @@ In this challenge, you’ll help the data analytics team do the following:
 ## Deliverables
 This prpject consists of three technical analysis, and a proposal to further analize company data.
 
-* #### _**Deliverable 1**_: Linear Regression to Predict MPG
-* #### **_Deliverable 2_**: Summary Statistics on Suspension Coils
-* #### **_Deliverable 3_**: T-Test on Suspension Coils
-* #### _**Deliverable 4**_: Design a Study Comparing the MechaCar to the Competition
+1. #### _**Deliverable 1**_: Linear Regression to Predict MPG
+2. #### **_Deliverable 2_**: Summary Statistics on Suspension Coils
+3. #### **_Deliverable 3_**: T-Test on Suspension Coils
+4. #### _**Deliverable 4**_: Design a Study Comparing the MechaCar to the Competition
 
 ## Resources
 * Data Source: **`MechaCar_mpg.csv`** and **`Suspension_Coil.csv`**
@@ -27,3 +27,25 @@ This prpject consists of three technical analysis, and a proposal to further ana
 
 ## Deliverable 1:
 ### Linear Regression to Predict MPG
+**`MechaCar_mpg.csv`** dataset contains mpg test results for 50 prototype MechaCars, measuring the miles per gallon across multiple variables. R in RStudio was used to calculate and show the linear regression.
+
+To deliver the findings the following steps were followed:
+* **`MechaCar_mpg.csv`** was imported and read into a DataFrame
+*  RScript was written to show a linear regression model, performed on six variables
+*  RScript was also written to show statistical summary of the linear regression model with the intended p-values
+*  Writtem summary covering the three questions
+
+## MechaCar_DataFrame
+
+![MechaCar_DataFrme](https://user-images.githubusercontent.com/109354592/202325917-81588d58-5a3a-47b3-8bb6-e3c1dc96c37c.png)
+
+## Statistical Summary
+
+**mpg = (6.267)vehicle_length + (0.0012)vehicle_weight + (0.0688)spoiler_angle + (3.546)ground_clearance + (-3.411)AWD + (-104.0)**
+
+![summary_statistics](https://user-images.githubusercontent.com/109354592/202326007-504bb0db-77af-4ef1-bdb5-6fda7ebba1bb.png)
+
+
+
+
+

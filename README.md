@@ -15,10 +15,10 @@ In this challenge, you’ll help the data analytics team do the following:
 ## Deliverables
 This prpject consists of three technical analysis, and a proposal to further analize company data.
 
-* #### Deliverable 1: Linear Regression to Predict MPG
-* #### Deliverable 2: Summary Statistics on Suspension Coils
-* #### Deliverable 3: T-Test on Suspension Coils
-* #### Deliverable 4: Design a Study Comparing the MechaCar to the Competition
+* #### _**Deliverable 1**_: Linear Regression to Predict MPG
+* #### **_Deliverable 2_**: Summary Statistics on Suspension Coils
+* #### **_Deliverable 3_**: T-Test on Suspension Coils
+* #### _**Deliverable 4**_: Design a Study Comparing the MechaCar to the Competition
 
 ## Resources
 * Data Source: **MechaCar_mpg.csv** and **Suspension_Coil.csv**

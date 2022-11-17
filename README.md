@@ -39,11 +39,18 @@ To deliver the findings the following steps were followed:
 
 ![MechaCar_DataFrme](https://user-images.githubusercontent.com/109354592/202325917-81588d58-5a3a-47b3-8bb6-e3c1dc96c37c.png)
 
-## Statistical Summary
+## Statistical Model
 
 **mpg = (6.267)vehicle_length + (0.0012)vehicle_weight + (0.0688)spoiler_angle + (3.546)ground_clearance + (-3.411)AWD + (-104.0)**
 
 ![summary_statistics](https://user-images.githubusercontent.com/109354592/202326007-504bb0db-77af-4ef1-bdb5-6fda7ebba1bb.png)
+
+
+## Statistical Summary
+
+From the data above we can see that:
+
+-- The vehicle length, and vehicle ground clearance are statistically likely to provide non-random amounts of variance to the model. That is to say, the vehicle length and vehicle ground clearance have a significant impact on miles per gallon on the MechaCar prototype. Conversely, the vehicle weight, spoiler angle, and All Wheel Drive (AWD) have p-Values that indicate a random amount of variance with the dataset.
 
 
 

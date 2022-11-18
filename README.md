@@ -76,30 +76,56 @@ The means of the lot numbers are similar to the population mean as well as the s
 
 ![Lot_Summary](https://user-images.githubusercontent.com/109354592/202792730-e3faaeb5-d38f-4b7d-a2b4-73652ba0e331.png)
 
-The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current data meet this design specification for all manufacturing lots, in total, and each lot individually?
 
-The variance for the total manufacturing lot is **62 < 100**, which is within the expected design specifications of staying `under 100 PSI`. However, when reviewing the data by Lot number, Lot 3 is a large contributing factor to the variance being high. Lot 3 shows a variance of **170 > 100** and does not meet the design specifications. Lot 1 and Lot 2 have significantly lower variance, 1 and 7 respectively.
+The variance for the total manufacturing lot is **62 < 100**, which is within the expected design specifications of staying `under 100 PSI`. However, when reviewing the data by Lot number, Lot 3 is a large contributing factor to the variance being high. Lot 3 shows a variance of **170 > 100** and does not meet the design specifications. 
+Lot 1 and Lot 2 have significantly lower variance, than 1 and 7 respectively.
 
+## T-Tests on Suspension Coils
 
+### T-test for all Lots
 
+Manufacturing Lots: p-value = .6028, alpha = .05
 
+.60 > .05, the total manufacturing lot **is not** statistically significant from the normal distribution, and normality can be assumed. While the mean falls within the 95% confidence interval.
 
+![T-Test](https://user-images.githubusercontent.com/109354592/202795743-676e93a6-5827-469e-8b25-dcdbdc28063c.png)
 
+### T-test for Lot 1
 
+![t-test_Lot_1](https://user-images.githubusercontent.com/109354592/202795929-a7df2692-1b35-40a8-96e7-5888b069c491.png)
 
+## T-test for Lot 2
 
+Lot 2: p-value = .6072, alpha = .05
 
+.60 > .05, Lot 2 **is not** statistically significant from the normal distribution and normality can be assumed. While the mean falls within the 95% confidence interval.
 
+![t-test_Lot_2](https://user-images.githubusercontent.com/109354592/202796191-51e9c08b-6fe6-40ed-9fa7-a8fc0e12b3a5.png)
 
+## T-test for Lot 3
 
+Lot 3: p-value = .04168, alpha = .05
 
+.04 < .05, which means **it is** statistically significant from the normal distribution and normality cannot be assumed. However, the mean falls within the 95% confidence interval.
 
+![t-test_Lot_3](https://user-images.githubusercontent.com/109354592/202796358-45f8e038-5416-4d85-9461-ead539b81a70.png)
 
+Ooverall, Lots 1 & 2 show a normal distribution. There is not sufficient evidence to reject the null hypothesis, which shows the two means are statistically similar.
 
+## Study Design: MechaCar vs Competition
 
+When comparing MechaCar to its competitor’s some other metrics that may be of interest to consumer's, include cost,  color of vehicle, city/highway fuel efficiency, horsepower, average cost of repair, and safety rating.
 
+1. What metric or metrics are being tested?
+  - The metrics to test should be horsepower, safety rating, and city/highway fuel efficiency, these could address some of the safety concerns consumers may have when buying a vehicle.
 
+2. What is the null hypothesis or alternative hypothesis?
+ - The null hypothesis is that the mean of the safety rating is zero. The alternative hypothesis is that the mean of the safety rating is not zero.
 
+3. What statistical test would you use to test the hypothesis? And why?
+  - A multiple linear regression statistical summary will show the variable impact of the safety ratings for MechaCar and competitors.
 
-
+4. What data is needed to run the statistical test?
+   - Random sample of n > 30 for MechaCar and each competitor would need to be collected, include the safety ratings, city/highway fuel efficiency, and horsepower, also, running the data through RStudio.
 

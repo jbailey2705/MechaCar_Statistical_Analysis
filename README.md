@@ -121,7 +121,7 @@ When comparing MechaCar to its competitor’s some other metrics that may be of 
    - The metrics to test should be horsepower, safety rating, and city/highway fuel efficiency, these could address some of the safety concerns consumers may have when buying a vehicle.
 
 2. What is the null hypothesis or alternative hypothesis?
-  - The null hypothesis is that the mean of the safety rating is zero. The alternative hypothesis is that the mean of the safety rating is not zero.
+   - The null hypothesis is that the mean of the safety rating is zero. The alternative hypothesis is that the mean of the safety rating is not zero.
 
 3. What statistical test would you use to test the hypothesis? And why?
    - A multiple linear regression statistical summary will show the variable impact of the safety ratings for MechaCar and competitors.

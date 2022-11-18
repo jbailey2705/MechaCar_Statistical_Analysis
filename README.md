@@ -118,13 +118,13 @@ Ooverall, Lots 1 & 2 show a normal distribution. There is not sufficient evidenc
 When comparing MechaCar to its competitor’s some other metrics that may be of interest to consumer's, include cost,  color of vehicle, city/highway fuel efficiency, horsepower, average cost of repair, and safety rating.
 
 1. What metric or metrics are being tested?
-  - The metrics to test should be horsepower, safety rating, and city/highway fuel efficiency, these could address some of the safety concerns consumers may have when buying a vehicle.
+   - The metrics to test should be horsepower, safety rating, and city/highway fuel efficiency, these could address some of the safety concerns consumers may have when buying a vehicle.
 
 2. What is the null hypothesis or alternative hypothesis?
- - The null hypothesis is that the mean of the safety rating is zero. The alternative hypothesis is that the mean of the safety rating is not zero.
+  - The null hypothesis is that the mean of the safety rating is zero. The alternative hypothesis is that the mean of the safety rating is not zero.
 
 3. What statistical test would you use to test the hypothesis? And why?
-  - A multiple linear regression statistical summary will show the variable impact of the safety ratings for MechaCar and competitors.
+   - A multiple linear regression statistical summary will show the variable impact of the safety ratings for MechaCar and competitors.
 
 4. What data is needed to run the statistical test?
    - Random sample of n > 30 for MechaCar and each competitor would need to be collected, include the safety ratings, city/highway fuel efficiency, and horsepower, also, running the data through RStudio.
